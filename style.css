@@ -1,0 +1,76 @@
+* {background-color: bisque; }
+
+
+input[type=submit] {
+    background-color: hotpink;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+  }
+
+  footer {
+    font-weight:600;
+    font-family:'Trebuchet MS';
+    font-style:italic;
+    color:aqua;
+    text-align: center;
+    text-decoration: overline underline solid navy 3px;
+
+  }
+
+  h1 { 
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium';
+    font-style:oblique;
+    color:rgb(255, 0, 149);
+    text-align:center;
+    text-decoration: underline double navy 2px;
+  }
+
+  image {
+     align-self: center;
+  }
+
+ .heading {
+   color: navy;
+   text-decoration: underline wavy;
+
+ }
+
+ fieldset {
+  border-radius: 5px;
+  border: 5px double hotpink;
+  margin:25px 50px;
+  padding: 25px;
+ }
+
+ #fName, #lName, #DOB, #pwd, #number, #id, #email, #country {
+  border-radius: 5px;
+  border: 5px double navy;
+  margin:25px 50px;
+  padding: 25px;
+  width: 50%;
+ }
+
+#male, #female {
+  border-radius: 5px;
+  margin:25px 50px;
+  padding: 25px;
+}
+table {
+  border: 3px solid navy;
+  width:100%;
+
+}
+
+th, td{
+  border: 5px solid navy;
+  margin: 3px;
+  padding:10px;
+  text-align: center; 
+
+}
