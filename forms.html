@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <style>
+      img { width: 300;
+    }
+      </style>
+      <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1> APPLICATION QUESTIONNARE</h1>
+    <p>
+        <h3> Which position are you appplying for? </h3>
+     <ol type="i">
+         <li>Software Engineer</li>
+         <li>Data Scientist</li>
+         <li>Web Developer</li>
+         <li>Project Manager</li>
+         <li>Accountant</li>
+         <li>Human Resource Manager</li>
+     </ol>
+     <br>
+     Answer  :___________________________________________
+      </p>
+
+      <br><br>
+ <H1 >REGISTRATION FORM</H1>  
+ <P>This form will be used to collect your details which will be saved into out database. 
+    We ask that you fill as accurate as possible. 
+    Giving out dishonest information will disqualify you.
+ </P>
+ <form>
+    <fieldset>
+        <legend><h2 class="heading">Personal Information</h2></legend>
+        <p>What is your gender</p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="fName">First Name</label><br>
+        <input type="text" id="fName" name="fName" placeholder="Enter you first name" required>
+        <br> <br>
+        <label for="lName">Last Name</label><br>
+        <input type="text" id="lName" name="lName" placeholder="Enter you last name" required>
+        <br> <br>
+      
+        <label for="DOB">Date-Of-Birth</label><br>
+        <input type="date" id="DOB" name="DOB" required>
+        <br> <br>
+        <label for="pwd">Password</label><br>
+        <input type="password" id="pwd" name="pwd" min="4" max="8" placeholder="Password"    required>
+    </fieldset>
+    <fieldset>
+        <legend><h2 class="heading">Contact Information</h2> </legend>
+        <label for="number">Phone number</label><br>
+        <input type="tel" id="number" name="number" pattern="[+ 0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+        <br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="id">Identification number</label><br>
+        <input type="number" id="id" name="id" required>
+        <br><br>
+    </fieldset>
+    <fieldset>
+        <legend><h2 class="heading">Address</h2></legend>
+        <label for="country">Country of origin</label>
+        <select id="country" name="country">
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="Rwanda">Rwanda</option>
+            <option value="Burundi">Burundi</option>
+            <option value="Ethiopia">Ethiopia</option>
+            <option value="Sudan">Sudan</option>
+        </select>
+        <br><br>
+        <label for="country">Country of residence</label>
+        <select id="country" name="country">
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="Rwanda">Rwanda</option>
+            <option value="Burundi">Burundi</option>
+            <option value="Ethiopia">Ethiopia</option>
+            <option value="Sudan">Sudan</option>
+            <option value="other">Other</option>
+        </select>
+    </fieldset>
+    <input type="submit" value="SUBMIT">
+ </form>
+ 
+ <p> <h3> We have provided a list of people that you could reach out to</h3></p>
+<table>
+    <tr>
+        <th>NAME</th>
+        <th>PHONE NUMBER</th>
+        <th>EMAIL</th>
+        <th>POSITION</th>
+    
+    </tr>
+    <tr>
+        <td>Peter Jane</td>
+        <td> +254 721 213 312</td>
+        <td> pjane@gmail.com</td>
+        <td> Project Manager</td>
+       
+    </tr>
+    <tr>
+        <td> Jane Clair</td>
+        <td> +253 733 321 123</td>
+        <td> janeC@yahoo.com</td>
+        <td> HR</td>
+        
+    </tr>
+    <tr>
+        <td> Clair Peter</td>
+        <td> +255 233 322 232</td>
+        <td> claPet@gmail.com</td>
+        <td> HR</td>
+        
+    </tr> 
+</table>
+</body>
+<br><br><br>
+<footer>
+    <img src="image.png" alt="logo" > All rights reserved
+</footer>
+</html>
+
